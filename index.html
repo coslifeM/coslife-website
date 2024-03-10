@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap Link Style CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--Icons  Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<!-- Style sheet - CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/site.png" alt="Coslife icon" sizes="40x40">
+  <title>COSLIFE WEBSITES</title>
+  </head>
+ <body> 
+   <!-- NAVBAR SECTION -->
+   <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <div class="container">
+        <img src="images/logo.png" alt="COSLIFE Logo" width="60px" height="60px">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Social links
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://facebook.com/coslifemt"><i class="bi bi-facebook"></i> Facebook</a></li>
+              <li><a class="dropdown-item" href="https://Instagram.com/coslifem1"><i class="bi bi-instagram"></i> Instagram</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/coslifem/"><i class="bi bi-linkedin"></i> Linkedin</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+   </nav>
+
+   <!-- SHOWCASE SECTION -->
+   <section class="bg-dark text-light p-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Get a <span class="text-warning">Free Website</span></h1>
+          <p class="lead my-4">Ready to establish your online presence? We're offering a fantastic opportunity to build you a website for free! Showcase your ideas, portfolio, or business effortlessly. Hosting exclusive at service provider cost.No hidden fees, just your creativity unleashed. Get started now and make your mark on the web! </p>
+          <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#sign-up">
+            Sign Up for Free
+          </button>
+        </div>
+        <img class="img-fluid w-50" src="images/Coslife-website.png" alt="Coslife-website image" />
+      </div>
+    </div>
+   </section>
+
+   
+<!-- Modal -->
+<div class="modal fade" id="sign-up" tabindex="-1" aria-labelledby="sign-upLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="sign-upLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Need Website? Fill the form, We will build it</p>
+        <form>
+         <div class="mb-3">
+           <label for="first-name" class="col-form-label">
+             First Name
+           </label>
+           <input type="text" class="form-control" id="first-name">
+          </div>
+          <div class="mb-3">
+            <label for="first-name" class="col-form-label">
+              Last Name
+            </label>
+            <input type="text" class="form-control" id="first-name">
+           </div>
+           <div class="mb-3">
+            <label for="first-name" class="col-form-label">
+              Email
+            </label>
+            <input type="text" class="form-control" id="first-name">
+           </div>
+           <div class="mb-3">
+            <label for="first-name" class="col-form-label">
+              Phone Number
+            </label>
+            <input type="text" class="form-control" id="first-name">
+           </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!-- NEWS LETTER -->
+   <section class="bg-primary text-light p-4">
+   <div class="container">
+      <div class="d-sm-flex justify-content-between align-items-center">
+       <h3 class="mb-3 mb-md-0">Sign Up For Our News Letter</h3>
+
+       <div class="input-group news-input ms-auto">
+         <input type="text" class="form-control" 
+         placeholder="Enter Your Email: example@email.com" />
+         <button class="btn btn-dark btn-lg" 
+         type="button">
+          Button
+         </button>
+      </div>
+     </div>
+   </div>
+   </section>
+
+   <!-- Boxes -->
+   <section class="p-5">
+    <div class="container">
+      <div class="row text-center g-4">
+
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="crad-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-laptop"></i>
+              </div>
+            <h3 class="card-title mb-3">e-Commerce</h3>
+            <p class="card-text p-3">
+              An e-commerce website is an online platform that facilitates the buying and selling of goods or services over the internet. It serves as a virtual storefront where businesses and consumers can interact, browse products, make purchases, and complete transactions without the need for physical presence. Here is the reason why.....
+            </p>
+            <a href="https://www.coslife.co.za/e-commerce/" class="btn btn-danger">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-secondary text-light">
+            <div class="crad-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-person-square"></i>
+              </div>
+             <h3 class="card-title mb-3">Portfolio</h3>
+             <p class="card-text p-3">
+              In the digital age, your online presence is often the first impression you make. Whether you're an designer, developer, or professional seeking new opportunities, a portfolio website is your virtual showcase, allowing you to curate and present your best work. Here's why having a portfolio website is a game-changer.
+             </p>
+             <a href="https://www.coslife.site/portfolio/" class="btn btn-danger">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="crad-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-people"></i>
+              </div>
+            <h3 class="card-title mb-3">e-Services</h3>
+            <p class="card-text p-3">
+              Services are provided and dedicated to providing unparalleled solutions that cater users needs. Whether for business or home services or an individual looking for expert assistance, platform is designed to land a hand. Let's delve into the distinctive features that make service website a game-changer, here are benefits</p>
+              <a href="https://www.coslife.co.za/e-Services" class="btn btn-danger">Read More</a>
+            </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!-- Learn Section -->
+   <section id="learn" class="p-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="images/fundamentals.svg" class="img-fluid" alt="Coslife Website Image">
+        </div>
+        <div class="col-md p-5">
+          <h2>Experiment The Fundamentals</h2>
+          <p class="lead">
+            Certainly! "Harnessing the fundamentals is the cornerstone of website development, providing a solid framework for crafting effective and user-friendly digital experiences."
+          </p>
+          <p class="lead">
+            "Building websites begins with mastering the essentials: HTML, CSS, and JavaScript, seamlessly brought together with the power of VS Code – the trifecta that transforms code into captivating online experiences."
+          </p>
+          <a href="#" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i>
+             Read More
+          </a>
+        </div>
+      </div>
+    </div>
+   </section>
+
+
+   <!-- Templates -->
+  <section class="bg-dark text-light p-5 text-center text-sm-start">
+    <div class="container g-4">
+      <h1>Check Out below for,<span class="text-warning"> Free Website</span> Examples!</h1>
+    </div>
+   </section>
+
+
+   <!-- Website Examples -->
+    <section class="py-3 g-3">
+      <div class="card-group text-center">
+        <div class="card">
+          <img src="images/business.png" class="card-img-top" alt="Coslife Services Image">
+          <div class="card-body">
+            <h4 class="card-title">e-Services Website</h4>
+            <p class="card-text">Services are provided and dedicated to providing unparalleled solutions that cater users needs. Whether for business or home services or an individual looking for expert assistance, platform is designed to land a hand. Let's delve into the distinctive features that make service website a game-changer.</p>
+            <p class="card-text"><small class="text-body-secondary"><button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#sign-up">
+              Sign Up for Free
+            </button></small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/ecommerce.png" class="card-img-top" alt="Coslife Website Image">
+          <div class="card-body">
+            <h4 class="card-title text">e-Commerce Website</h4>
+            <p class="card-text">An e-commerce website is an online platform that facilitates the buying and selling of goods or services over the internet. It serves as a virtual storefront where businesses and consumers can interact, browse products, make purchases, and complete transactions without the need for physical presence.</p>
+            <p class="card-text"><small class="text-body-secondary"><button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#sign-up">
+              Sign Up for Free
+            </button></small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/portfolio.png" class="card-img-top" alt="Cosmos Portfolio Image">
+          <div class="card-body">
+            <h4 class="card-title">Portfolio Website</h4>
+            <p class="card-text">In the digital age, your online presence is often the first impression you make. Whether you're an designer, developer, or professional seeking new opportunities, a portfolio website is your virtual showcase, allowing you to curate and present your best work. Here's why having a portfolio website is a game-changer.</p>
+            <p class="card-text"><small class="text-body-secondary"><button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#sign-up">
+              Sign Up for Free
+            </button></small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  
+   <!--CAROUSEL SLIDE -->
+   <section>
+   <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/ecommerce.png" class="d-block w-100" alt="Coslife Ecommerce Business image">
+        <div class="carousel-caption d-none d-md-block">
+          <h2/h2>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+          <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Coslife M" data-bs-content="https://coslife.co.za. It's very engaging. Right?">Click Here</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/business.png" class="d-block w-100" alt="Coslife Business Service Image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/portfolio.png" class="d-block w-100" alt="Cosmos Portfolio Image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+   </div>
+   </section>
+
+   <!--Quastions Accordion-->
+    <section id="questions" class="p-5">
+      <div class="container bg-body g-4">
+          <h2 class="text-center mb-4">
+           Frequently Asked Questions
+          </h2>
+          <div class="accordion accordion-flush" id="Questions">
+            <!-- Item One -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-One" aria-expanded="false" aria-controls="flush-collapseOne">
+                  How much does a website cost?
+                </button>
+              </h2>
+              <div id="Question-One" class="accordion-collapse collapse" data-bs-parent="#Questions">
+                <div class="accordion-body">You get a professionally designed website valued at up to R5000 absolutely free! Only pay for hosting at R109. Limited-time offer, grab your online presence now
+              </div>
+              </div>
+            </div>
+            <!-- Item Two -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-Two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  What is the difference between a domain name and web hosting?
+                </button>
+              </h2>
+              <div id="Question-Two" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">A domain name is the address of your website (e.g.www.example.com), while web hosting is the service that stores and makes your website accessible on the internet.
+                </div>
+              </div>
+            </div>
+            <!-- Item Three -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-Three" aria-expanded="false" aria-controls="flush-collapseThree">
+                 Do you offer any services regarding the website?
+                </button>
+              </h2>
+              <div id="Question-Three" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+
+  We offer a diverse range of online services tailored to meet the evolving needs of businesses and individuals. Our commitment extends beyond mere website development - we specialize in comprehensive website maintenance and a suite of online services to ensure your digital presence remains seamless and cutting-edge.
+
+**Our Services:**
+
+1. **Website Maintenance:**
+   - Regular Updates: Keep your website content, plugins, and features up-to-date for optimal performance.
+   - Security Checks: Implement robust security measures to protect your website from potential threats.
+   - Bug Fixes: Swift identification and resolution of any issues to ensure a smooth user experience.
+   - Performance Optimization: Fine-tune your website for faster loading times and enhanced user satisfaction.
+
+2. **Responsive Web Design:**
+   - Craft visually appealing and functional websites that adapt seamlessly to various devices and screen sizes.
+   - Enhance user experience with intuitive navigation and aesthetically pleasing design elements.
+
+3. **E-Commerce Solutions:**
+   - Develop and maintain robust online stores with secure payment gateways for seamless transactions.
+   - Implement inventory management, order tracking, and other essential e-commerce functionalities.
+
+4. **Content Management Systems (CMS):**
+   - Customize and optimize popular CMS platforms such as WordPress, Joomla, and Drupal.
+   - Empower clients with easy content updates, ensuring flexibility and control over their digital content.
+
+5. **Search Engine Optimization (SEO):**
+   - Boost your website's visibility on search engines through strategic SEO practices.
+   - Conduct thorough keyword research, optimize content, and implement on-page and off-page SEO techniques.
+
+6. **Social Media Integration:**
+   - Seamlessly integrate your website with social media platforms for broader reach and engagement.
+   - Implement social sharing features and maintain consistent brand messaging across channels.
+
+7. **Custom Web Development:**
+   - Tailor-made solutions to meet specific business requirements, from custom plugins to intricate web applications.
+   - Leverage the latest technologies to ensure your website remains at the forefront of digital innovation.
+
+**Why Choose WebCraft Solutions:**
+   - *Expertise*: Our team of skilled developers and designers brings years of industry expertise to every project.
+   - *Reliability*: We prioritize the reliability and stability of your website to enhance user trust and satisfaction.
+   - *Scalability*: Our solutions are scalable to accommodate your business growth and evolving needs.
+   - *Client-Centric Approach*: We value open communication, understanding your goals to deliver personalized solutions.
+
+Partner with WebCraft Solutions for a holistic approach to web development, maintenance, and online services. Elevate your online presence and stay ahead in the digital landscape with our dedicated team by your side!
+
+*WebCraft Solutions - Crafting Digital Excellence, One Website at a Time!*</div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section class="p-5">
+      <div class="container bg-dark text-light">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4"><i class="bi bi-whatsapp"></i> Get in touch</h2>
+            <ul class="list-group listgroup-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location</span>
+                Corlett Drive, Bramley JHB, RSA
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Website Link</span>
+                https://coslife.site
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Phone Number</span>
+                +27 64 141 0505
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email Adress</span>
+                info@coslife.site
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="map"  class="col-md">
+        <div id="map"></div>
+        <iframe id="map"
+        width="600"
+        height="450"
+        style="border:0"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBoo_YeVLxoOGt-whi_g1w-gbakeHyUb4Q
+        &q=Space+Needle,Bramley+ZA">
+        </iframe>
+       </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2024 | Coslife Website All Rights Reserved</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5"></a>
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </div>
+    </footer>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+   <script></script>
+  </body>
+</html>
