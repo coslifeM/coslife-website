@@ -18,7 +18,7 @@ body::before {
 }
 
 .footer {
-    background: rgb(0, 0, 0);
+    background: rgb(42, 41, 41);
     padding-top: 5rem;
     padding-bottom: 1rem;
   }
@@ -56,7 +56,7 @@ body::before {
   }
   
   .footer_socials a:hover {
-    background: var(--color-primary);
+    background: red;
     color: #16ee74;
     border-radius: 50%;
   }
