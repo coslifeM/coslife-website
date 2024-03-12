@@ -112,20 +112,30 @@
 
    <!-- NEWS LETTER -->
    <section class="bg-success text-light p-4">
-   <div class="container">
-      <div class="d-sm-flex justify-content-between align-items-center">
-       <h3 class="mb-3 mb-md-0">Sign Up For Our News Letter</h3>
-
-       <div class="input-group news-input ms-auto">
-         <input type="text" class="form-control" 
-         placeholder="Enter Your Email: example@email.com" />
-         <button class="btn btn-dark btn-lg" 
-         type="button">
-          Send
-         </button>
+   
+<div class="container mt-5">
+  <div class="row justify-content-center">
+      <div class="col-md-6">
+          <div class="card">
+              <div class="card-header">
+                  <h3 class="text-center">Subscribe to our Newsletter</h3>
+              </div>
+              <div class="card-body">
+                  <form action="https://wa.me/+27641410505" method="post" id="emailForm">
+                      <div class="mb-3">
+                          <label for="email" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="email" name="email" required>
+                      </div>
+                      <div class="text-center">
+                          <button type="submit" class="btn btn-primary">Subscribe</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
       </div>
-     </div>
-   </div>
+  </div>
+</div>
+
    </section>
    <!-- End News Letter -->
 
