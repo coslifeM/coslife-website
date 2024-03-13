@@ -108,26 +108,36 @@
     </div>
   </div>
 </div>
-<!-- End Modal -->
-<!-- action="https://formsubmit.co/0ee21955f7113687697a8e6fc84e74ef" method="POST" -->
-   <!-- NEWS LETTER -->
+<!-- End Modal  Enter Your Email: example@email.com"-->
+
+
+
+    <!-- NEWS LETTER -->
+    <!-- action="https://formsubmit.co/0ee21955f7113687697a8e6fc84e74ef" method="POST" -->
    <section class="bg-success text-light p-4">
-   <div class="container">
-      <div class="d-sm-flex justify-content-between align-items-center">
-       <h3 class="mb-3 mb-md-0">Sign Up For Our News Letter</h3>
-
-       <div class="input-group news-input ms-auto">
-         <input  type="text" class="form-control" 
-         placeholder="Enter Your Email: example@email.com" />
-         <button action="https://formsubmit.co/0ee21955f7113687697a8e6fc84e74ef" method="POST"
-         class="btn btn-dark btn-lg" 
-         type="button">
-         Subscribe
-         </button>
-      </div>
-
-     </div>
-   </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="text-center">Subscribe to our Newsletter</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="https://formsubmit.co/0ee21955f7113687697a8e6fc84e74ef" method="post" id="emailForm">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Type Your Email Here!"  name="email" required>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
    </section>
    <!-- End News Letter -->
 
@@ -438,20 +448,27 @@ Partner with WebCraft Solutions for a holistic approach to web development, main
     </section>
     <!-- End Contact & Map -->
     
+    <!-- Footer Section -->
     <section class="footer">
       <footer>
         <div class="container footer_container">
+          <div class="container">
+            <div class="col-md-6">
+            <img class="start-5 position-absolute"  src="images/logo.png" alt="COSLIFE Logo" width="160px" height="160px">  
+            </div>         
+                     
+           </div>
           <ul class="footer_menu">
-             <li><a href="#"><i class="bi bi-house-door"> Home</i></a></li>
-             <li><a href="#about">About</a></li>
-             <li><a href="#services">Services</a></li>
-             <li><a href="#projects">Projects</a></li>
-             <li><a href="#contact">Contact</a></li>
+          
+            <li><a href="https://coslife.co.za" target="_blank">eCommerce</a></li>
+             <li><a href="https://coslife.sie" target="_blank">Portfolio</a></li>
+             <li><a href="https://cosmosm.site" target="_blank">Projects</a></li>
+             <li><a href="https://autorepo.coza" target="_blank">Dealer</a></li>
           </ul>
           <ul class="footer_socials">
             <li><a href="https://wa.me/+27641410505" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
               <li><a href="https://twitter.com/coslifem1" target="_blank"><i class="bi bi-twitter"></i></a></li>
-              <li><a href="https://facebook.com/coslifem" target="_blank"><i class="bi bi-facebook"></i></i></a></li>
+              <li><a href="https://facebook.com/coslifem1" target="_blank"><i class="bi bi-facebook"></i></i></a></li>
               <li><a href="https://github.com/coslifem" target="_blank"><i class="bi bi-github"></i></a></li>
               <li><a href="https://linkedin.com/in/coslifem" target="_blank"><i class="bi bi-linkedin"></i></i></a></li>
           </ul>
@@ -464,32 +481,9 @@ Partner with WebCraft Solutions for a holistic approach to web development, main
           </div>
       </footer>
     </section>
-    
-    <!-- Footer -->
-    <!-- ***Adjusted footer is being used this is an original copy***
-      <footer class="p-5 bg-dark text-white text-center position-relative">
-      <div class="container">
-        <p class="lead fixed">
-          Copyright &copy; 2024 | Coslife Website All Rights Reserved  
-          <a href="#" class="btn btn-dark btn-lg end-0 position-absolute" id="scrollTopBtn" role="right">
-            <i class="bi bi-arrow-up-circle h1"></i> <-- Font Awesome icon for arrow up -->
-          </a> 
-          </p> 
-          <!-- <a href="#" class="position-absolute bottom-0 end-0 p-5"></a>
-          <i class="bi bi-arrow-up-circle h1"></i> -->
-         
-      </div>
-    </footer>
     <!-- End Footer -->
 
-   <!--  **This Copy as original copy****
-    <form action="https://formsubmit.co/0ee21955f7113687697a8e6fc84e74ef" method="POST" 
-        class="contact_form" data-aos="fade-up" data-aos-delay="600">
-          <input type="text" name="Name" placeholder="Full Name">
-          <input type="email" name="Email" placeholder="Email Address">
-          <textarea rows="7" name="Message" placeholder="Message"></textarea>
-          <button type="submit" class="btn">Send</button> 
-        </form> -->
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-eM5Aq8sfhVhpu7syzEI0dG4To5VppF2uHvCOx/2LnuI2VkvLrpMpIOfL2QzBoZjr" crossorigin="anonymous"></script>
 
         <script>
