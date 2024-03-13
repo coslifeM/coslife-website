@@ -32,6 +32,7 @@ body::before {
   .footer_menu a {
     color: white;
     transform: var(--transition);
+    text-decoration: none;
   }
   
   .footer_menu a:hover {
